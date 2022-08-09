@@ -13,6 +13,8 @@ dependencies {
     implementation 'io.vertx:vertx-jdbc-client:3.9.13'
 
     testImplementation 'org.hsqldb:hsqldb:2.7.0'
+    testImplementation 'com.h2database:h2:2.1.214'
+
     testImplementation 'io.vertx:vertx-junit5:3.9.13'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
